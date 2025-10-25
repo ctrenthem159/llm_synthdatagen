@@ -1,6 +1,7 @@
 import tomllib
 from pathlib import Path
 
+
 def _get_version() -> str:
     try:
         pyproject_path = Path(__file__).parent.parent
@@ -11,4 +12,4 @@ def _get_version() -> str:
         return "0.0.0"
 
 __version__ = _get_version()
-__all__ = ["__version__"]
+__all__ = ["__version__"]__all__ = ["__version__"]

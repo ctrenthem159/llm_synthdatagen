@@ -36,6 +36,8 @@ streamlit = "^1.39.0"
 # requests = "^2.32.0"
 # pydantic = "^2.8.0"
 # pillow = "^10.4.0"
+dotenv = "^0.9.9"
+openai = "^2.6.1"
 
 [tool.poetry.group.dev.dependencies]
 # Code formatting and linting
